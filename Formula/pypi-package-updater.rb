@@ -6,10 +6,10 @@ class PypiPackageUpdater < Formula
 
   desc "A tool to update Python package dependencies across multiple file formats"
   homepage "https://github.com/adambirds/pypi-package-updater"
-  url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.5.tar.gz"
-  sha256 "362ffed1e322d23028a7aec8e0676e2a7f24364e07052558835fd35ca91a933f"  # Auto-updated by CI
+  url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.6.tar.gz"
+  sha256 "bf48413028955f41a0246f47c6b69ff835401381a84c8e51caf9e2a6a9bd77ed"  # Auto-updated by CI
   license "MIT"
-  version "0.2.5"  # Auto-updated by CI
+  version "0.2.6"  # Auto-updated by CI
 
   depends_on "python@3.11"
 
