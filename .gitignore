@@ -1,0 +1,17 @@
+# This file tells Git to ignore common files that shouldn't be tracked
+# For Homebrew taps, we typically want to track everything, but here are some common excludes
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
