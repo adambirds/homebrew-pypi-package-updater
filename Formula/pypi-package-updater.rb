@@ -3,57 +3,57 @@ class PypiPackageUpdater < Formula
 
   desc "Update PyPI package versions in your requirements files"
   homepage "https://github.com/adambirds/pypi-package-updater"
-  url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz" # Auto-updated by CI
-  sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2" # Auto-updated by CI
-  version "0.2.17" # Auto-updated by CI
+  url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz" # Auto-updated by CI
+  sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed" # Auto-updated by CI
+  version "0.2.18" # Auto-updated by CI
   license "MIT"
   head "https://github.com/adambirds/pypi-package-updater.git", branch: "main"
 
   depends_on "python@3.11"
 
   resource "aiohttp" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "aiosignal" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "attrs" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "frozenlist" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "multidict" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "packaging" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "tomli" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "typing-extensions" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   resource "yarl" do
-    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.17.tar.gz"
-    sha256 "b2f65e33a163bac26cc7935f4068b062bfe7e40db2ddc47ee62c99a6750a8ea2"
+    url "https://github.com/adambirds/pypi-package-updater/archive/refs/tags/v0.2.18.tar.gz"
+    sha256 "c6560cee92203ae3471beb16bb18f0582d6c8e653e0a642348cc57e87128b3ed"
   end
 
   def install
