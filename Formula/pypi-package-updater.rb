@@ -3,8 +3,8 @@ class PypiPackageUpdater < Formula
 
   desc "Update PyPI package versions in your requirements files"
   homepage "https://github.com/adambirds/pypi-package-updater"
-  url "https://files.pythonhosted.org/packages/ee/b5/60b4530bb1c30f0ed58fbce915f55007069c56372fdafdcc8e6bf3da3c87/pypi_package_updater-0.2.19.tar.gz"
-  sha256 "bd0d65c5d59dd994dfc73843ac2007af83599ef006328031cd2bb4d2c7a30451"
+  url "https://files.pythonhosted.org/packages/3d/9d/c84553b412abc77f3198cffb1f048e82badec676bdb2d57731833904c81c/pypi_package_updater-0.2.22.tar.gz"
+  sha256 "9994a1a1f2c9ed974649995d451befe3e4bf8b64f1f40a0663bbdec16719c5d0"
   license "MIT"
 
   depends_on "python@3.11"
